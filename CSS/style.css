@@ -1,53 +1,110 @@
-#carouselcontainer{
-    margin-bottom: 25px;
+.navbar {
+  background-color: #18447095;
+  
+}
+
+#carouselcontainer {
+  max-width: 900px;
+  width: 100%;
+  height: 100%;
+  /* overflow-y: hidden; */
+  margin: auto;
+  margin-bottom: 25px;
+  margin-top: 25px;
+
+}
+
+#carouselcontainer .carousel-inner img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+
+}
+
+#EXOCD {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  gap: 15px;
+}
+
+.row {
+  gap: 15px;
 }
 
 
-#EXOCD{
-    margin-bottom: 25px;
-}
-
-#SONGS{
-    margin-bottom: 25px;
+#SONGS {
+  margin-bottom: 25px;
 }
 
 .footer {
-    /* background-color: #343a40;
-    color: #fff; */
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 .footer p {
-    margin-bottom: 0;
-}
-#SONGS a{
-    text-decoration: none;
-    color: black;
+  margin-bottom: 0;
+
 }
 
-#fot a{
-    color: black;
+#SONGS h2 {
+  padding-top: 19px;
 }
 
-.row img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#SONGS a {
+  text-decoration: none;
+  color: black;
+}
+
+#fot a {
+  color: black;
+}
+
+.footer {
+  background-color: #18447095;
+  color: #fff;
+  padding: 20px 0;
+  font-size: small;
+}
+
+.footer p {
+  margin-bottom: 0;
 }
 
 
 
-@media (max-width: 500px) {
-  #carouselcontainer img {
-    height: 200px; /* Limitar alto del carrusel */
+/* Pantala Mediana */
+@media(max-width: 1000px) {
+  #carouselcontainer .carousel-inner img {
+    height: 320px;
+    /* Limitar alto del carrusel */
     object-fit: cover;
   }
 
   .card {
-    width: 95% !important; /* Ajustar el tamaño de Cards */
+    width: 85% !important;
+    /* Ajustar el tamaño de Cards */
+  }
+
+}
+
+
+/* Pantalla pequeña */
+@media (max-width: 620px) {
+  #carouselcontainer .carousel-inner img {
+    height: 210px;
+    /* Limitar alto del carrusel */
+    object-fit: cover;
+  }
+
+  .card {
+    width: 95% !important;
+    /* Ajustar el tamaño de Cards */
   }
 
   footer p {
-    font-size: 14px; /* Ajustar el texto en Footer */
+    font-size: 14px;
+    /* Ajustar el texto en Footer */
   }
 }
