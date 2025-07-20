@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrapt</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-sm bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">EXO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#EXOCD">Albums</a>
+          <a class="nav-link" href="#SONGS">Songs</a>
+          
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="carouselcontainer" class="container border">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/exo_12.jpg" class="d-block w-100 " alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/exo_9.jpg" class="d-block w-100 " alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/exo-7.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+
+  <div id="EXOCD">
+    <div class="container border ">
+      <div class="row justify-content-center text-center ">
+        <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/exo_album_1.jpg" class="card-img-top" alt="Album XOXO">
+            <div class="card-body">
+              <p class="card-text">XOXO (2013) </p>
+            </div>
+          </div>
+        </div>
+
+        <div  class="col-lg-3 col-md-6 col-sm-12 p-3">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/exo_album_2.png" class="card-img-top" alt="Album Overdose">
+            <div class="card-body">
+              <p class="card-text">Overdose (2014)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container border">
+      <div class="row justify-content-center text-center ">
+        <div class="col-lg-3 col-md-6 col-sm-12  p-3">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/exo_album_3.jpg" class="card-img-top" alt="Album Love Me Right">
+            <div class="card-body">
+              <p class="card-text">Love Me Right (2015)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/exo_album_4.jpg" class="card-img-top" alt="Album Ex'Act">
+            <div class="card-body">
+              <p class="card-text">Ex'Act (2016)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container border" id="SONGS">
+    <div class="row justify-content-center text-center g-4">
+      <h2>"Canciones Mas Escuchadas en Spotify"</h2>
+      <h6>Puedes Selecionar la canción que gustes escuchar</h6>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <ul class="list-group">
+          <li class="list-group-item"><a href="https://open.spotify.com/intl-es/track/0yB4jrSwN0bFtFRDR5vyMj?si=c6f39c29ce934831">Love Shot</a></li>
+          <li class="list-group-item"><a href="https://open.spotify.com/intl-es/track/6Rx0ORYPP3GH9rTvGS5Vy8?si=63315612af0f4169">Call Me Baby</a></li>
+          <li class="list-group-item"><a href="https://open.spotify.com/intl-es/track/7GbUWl6qLW1gdngbEV2WDJ?si=9a0270cc39e048c4">Monster</a></li>
+          <li class="list-group-item"><a href="https://open.spotify.com/intl-es/track/4pi0Elz7B7cLfw37J3bYm9?si=674a5a5732074bb0">Growl</a></li>
+          <li class="list-group-item"><a href="https://open.spotify.com/intl-es/track/1kFevEv3s7Gf6o5xSDR5DL?si=6cd2395b9fd04cd5">Love Me Right</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 ">
+        <ul class="list-group">
+          <li class="list-group-item"><a href="https://open.spotify.com/intl-es/track/4EjUFjzi4ErWjklOA3Aslu?si=db910ecfe0564487">Tempo</a></li>
+          <li class="list-group-item"><a href="https://open.spotify.com/intl-es/track/2ujA6F1cpk3m8lsPE5aKua?si=f9c0438193b7465d">The Eve</a></li>
+          <li class="list-group-item"><a href="https://open.spotify.com/intl-es/track/5EzitieoPnjyKHAq0gfRMa?si=91fbed4f6ad648b7">Ko Ko Bop</a></li>
+          <li class="list-group-item"><a href="https://open.spotify.com/intl-es/track/6ukWoX4AHV76JdYVdKRPk8?si=c26e336dcaa44afc">Lotto</a></li>
+          <li class="list-group-item"><a href="https://open.spotify.com/intl-es/track/2VNpT9fRk1kyksT0S4coZR?si=0492df79ffb64a59">The First Snow</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+</body>
+
+<footer class="footer text-center">
+  <div class="container" id="fot">
+    <p>Copyright &copy; 2025. All rights reserved.</p>
+    <a href="https://open.spotify.com/album/1owcEw2antmRf5VKfUudPd?si=TuX9vgDEQu29Y5l1ruqJMQ">Cancion FAV de EXO reciente <span class="text-danger">&hearts;</span></a>
+    <p>Designed with <span class="text-danger">&hearts;</span> by Brandy Medina</p>
+  </div>
+</footer>
+
+
+</html>

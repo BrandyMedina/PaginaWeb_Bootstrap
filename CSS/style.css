@@ -1,0 +1,53 @@
+#carouselcontainer{
+    margin-bottom: 25px;
+}
+
+
+#EXOCD{
+    margin-bottom: 25px;
+}
+
+#SONGS{
+    margin-bottom: 25px;
+}
+
+.footer {
+    /* background-color: #343a40;
+    color: #fff; */
+    padding: 20px 0;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+#SONGS a{
+    text-decoration: none;
+    color: black;
+}
+
+#fot a{
+    color: black;
+}
+
+.row img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (max-width: 500px) {
+  #carouselcontainer img {
+    height: 200px; /* Limitar alto del carrusel */
+    object-fit: cover;
+  }
+
+  .card {
+    width: 95% !important; /* Ajustar el tamaño de Cards */
+  }
+
+  footer p {
+    font-size: 14px; /* Ajustar el texto en Footer */
+  }
+}
